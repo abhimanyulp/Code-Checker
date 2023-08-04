@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Checker - Home Page</title>
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+    <nav> <img src="/media/logo.png" alt=""> </nav>
+    <main>
+        <div id="functions">
+
+            <div id="convertContainer">
+                <button id="convertBtn">Convert</button>
+
+                <h1>To</h1>
+
+                <select name="" id="languageIn">
+                    <option value="">Select language</option>
+                    <option value="Pyhton">Pyhton</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                </select>
+            </div>
+            
+            <button id="debugBtn">Debug</button>
+            <button id="qualityBtn">Quality Check</button>
+
+        </div>
+
+        <div id="main">
+
+            <div id="editor"></div>
+
+            <div id="output"></div>
+
+        </div>
+    </main>
+</body>
+<script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="/scripts/index.js"></script>
+</html>

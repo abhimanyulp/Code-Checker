@@ -1,1 +1,3 @@
 # Code-Checker
+
+The main objective of this project is to create a web-based application that utilizes OpenAI's GPT to accomplish various coding tasks. The application will be capable of converting code from one programming language to another, identifying and fixing bugs in the code, and conducting quality checks on code snippets. By harnessing the power of GPT, this tool aims to streamline the coding process, enhance code readability, and facilitate developers in working with multiple programming languages seamlessly.
