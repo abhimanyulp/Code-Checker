@@ -4,7 +4,9 @@ editor.setShowInvisibles(true);
 editor.getSession().setMode("ace/mode/javascript");
 
 
-const baseServerUrl = "http://localhost:8080"
+// const baseServerUrl = "http://localhost:8080"
+const baseServerUrl = "https://code-checker-9mts.onrender.com"
+
 
 const outputEl = document.getElementById("output")
 
